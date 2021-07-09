@@ -1,0 +1,21 @@
+ .google-img img {
+     width: 250px;
+     height: 200px;
+     overflow: hidden;
+     border-radius: 10px;
+     border: 1px solid #dfdfdf
+ }
+ 
+ .google-content p,
+ span {
+     margin-bottom: 0;
+     font-weight: 500;
+ }
+ 
+ .google-content span {
+     font-weight: 600;
+ }
+ 
+ .google-content strong {
+     font-weight: 600;
+ }

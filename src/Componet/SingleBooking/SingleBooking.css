@@ -1,0 +1,66 @@
+.home {
+    background-image: url(../../Image/cox.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #212529;
+    background-color: rgba(0, 0, 0, .705);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, .705);
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.booking-area {
+    color: white;
+}
+
+.booking-area h1 {
+    font-weight: 600;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+}
+
+.booking-area {
+    margin-top: 4rem;
+}
+
+.book-area {
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: left;
+    color: #000;
+}
+
+.book-area input {
+    width: 100%;
+    border: none;
+    background: hsla(0, 0%, 91.4%, .733);
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.origin {
+    color: black;
+    font-weight: 500 !important;
+}
+
+.Books {
+    width: 100%;
+    background-color: #f9a51a !important;
+    padding: 8px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.error {
+    color: #c23616;
+}

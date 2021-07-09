@@ -1,0 +1,70 @@
+.home {
+    background-image: url(../../Image/cox.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #212529;
+    background-color: rgba(0, 0, 0, .705);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, .705);
+    width: 100vw;
+    height: 100vh;
+}
+
+.headers {
+    padding-top: 4rem;
+}
+
+.travel-text {
+    color: white;
+    text-align: left;
+}
+
+.travel-text h1 {
+    font-weight: 600;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+}
+
+.content-img img {
+    height: 300px;
+    width: 200px;
+}
+
+.home__destination-display-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .822));
+}
+
+.active {
+    border: 3px solid #f9a51a;
+}
+
+.home__destination-display-item {
+    width: 220px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.home__destination-display-item h4 {
+    margin-top: 14.5rem;
+    color: wheat;
+    margin-left: 1rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.all_content {
+    display: flex;
+}
