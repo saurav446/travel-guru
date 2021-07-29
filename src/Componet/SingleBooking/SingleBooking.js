@@ -71,7 +71,7 @@ const SingleBooking = () => {
                         value={date} onChange={(e)=> setDate(e.target.value)} 
                         required /> 
                        
-  
+   
                          </Col>
                         <Col md={6}>
                         <label className="mt-2"  for="originz">To</label> <br />

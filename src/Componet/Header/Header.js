@@ -19,11 +19,10 @@ const Header = () => {
             Travel Guru
           </Navbar.Brand>
           <Navbar.Toggle 
-          aria-controls="basic-navbar-nav"
-          // aria-controls="responsive-navbar-nav" 
+          aria-controls="basic-navbar-nav" 
           />
 
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="basic-navbar/-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#pricing"></Nav.Link>
             </Nav>

@@ -64,3 +64,13 @@
 .error {
     color: #c23616;
 }
+
+
+
+
+@media all and (max-width: 991px){
+    .book-area {
+        width: 380px ;
+        margin-left: -40px;  
+    }
+}

@@ -39,16 +39,8 @@ const GoogleMap = (props) => {
         lng: 92.0059
     }
     return (
-        <div> 
-            <div>
-      <div
-        style={{
-          height: '100vh',
-          width: '100%',
-          borderRadius: '15px',
-          overflow: 'hidden',
-        }}
-      >
+        <div>  
+      <div className="google__maps" >
         <GoogleMapReact 
           defaultZoom={18} defaultCenter={center}
         > 
@@ -62,8 +54,7 @@ const GoogleMap = (props) => {
             />
           ))}
         </GoogleMapReact>
-      </div>
-    </div>
+      </div> 
      
         </div>
     );

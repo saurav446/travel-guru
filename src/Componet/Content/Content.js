@@ -61,7 +61,7 @@ const Content = (props) => {
                         key={dt.id}
                         book={dt}  ></Booking>  )
                 }
-               </Col>
+               </Col> 
                <Col md={6}>      
                <div className="all_content ">
 
