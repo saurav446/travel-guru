@@ -5,8 +5,7 @@ import { useParams } from 'react-router';
 import { Row, Col, Container } from 'react-bootstrap';
 import fakeData from '../../fakeDate';
 import fakeDb from '../../fakeDb';
-import HotelBooking from '../HotelBooking/HotelBooking';
-import { Auth } from '../useContext/useContext';
+import HotelBooking from '../HotelBooking/HotelBooking'; 
 import Moment from 'react-moment';
 import GoogleMap from '../GoogleMap/GoogleMap';
 
@@ -15,8 +14,8 @@ const GooglePage = () => {
   const book = fakeData.find((pd) => pd.category === Category);
   
   const place = fakeDb.filter((pd) => pd.category === Category);
-
-  const [use, setUse] = useState(place); 
+ 
+  const [uses, setUses] = useState(place); 
 
   const [datas, setDatas] = useState();
   const travelData = localStorage.getItem('data');
@@ -33,7 +32,7 @@ const GooglePage = () => {
         <div className="google-page mt-3">
           <h4 className="mb-3">
             Say to <span>{book.name}</span>
-          </h4>
+          </h4> 
           <div>
             <p>
               (3) results . {datas?.Name} to {book.name} .{' '}
@@ -44,12 +43,12 @@ const GooglePage = () => {
 
           <Row>
             <Col md={6}>
-              {use.map((pd) => (
+              {uses.map((pd) => (
                 <HotelBooking data={pd}></HotelBooking>
               ))}
             </Col>
             <Col md={6}>
-              <GoogleMap use={use} ></GoogleMap>
+              <GoogleMap place={place} ></GoogleMap>
             </Col>
           </Row>
         </div>

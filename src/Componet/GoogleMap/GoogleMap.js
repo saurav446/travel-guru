@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GoogleMapReact from 'google-map-react'; 
 
-const GoogleMap = (props) => { 
+const GoogleMap = ({place}) => { 
+  
+    const [use,setUse] = useState(place)
+     
 
-    const use = props.use;
-    console.log(use)
-    const AnyReactComponent = ({ text }) =>
+    const AnyReactComponent = ({ text,data }) =>
     
     <div>
         <div className="marker__wrapper"> 
         <div className="marker__info"> 
+         <p style={{color:'#2ecc71',width:'100%'}}>{data.title}</p>
           <div className="d-flex align-items-center justify-content-between">
             <span>
               <span
@@ -28,8 +30,8 @@ const GoogleMap = (props) => {
             </span>
           </div>
         </div> 
-      <div   className="markers">
-        {text}
+      <div    className="marker" className="markers">
+        ${text}
       </div>
     </div>
     </div>;

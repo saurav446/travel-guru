@@ -56,7 +56,7 @@
      },
      {
          slug: 'sreemangal',
-
+          
          category: "Sreemangal",
          title: 'Fabulous apartment hosted by hotel cox',
          guest: 4,
